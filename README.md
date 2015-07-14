@@ -5,3 +5,5 @@ Technically, it is based on [TX Spell .NET for Windows Forms](http://www.textcon
 
 The TX Spell .NET ActiveX Package comes with full sources for the COM wrapper control.
 All you need is a trial version of TX Spell .NET for Windows Forms and Visual Studio 2008 or 2010.
+
+Start [here](https://github.com/TextControl/TXSpell.ActiveX-Package/blob/master/first_steps.md)
