@@ -1,5 +1,5 @@
 VERSION 5.00
-Object = "{0A8EF900-46E5-11E3-A545-0013D350667C}#2.6#0"; "tx4ole20.ocx"
+Object = "{67d06a00-8469-11e5-a5c5-0013d350667c}#2.9#0"; "tx4ole23.ocx"
 Begin VB.Form Form1 
    Caption         =   "Form1"
    ClientHeight    =   6285

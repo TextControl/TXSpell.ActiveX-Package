@@ -1,5 +1,5 @@
 VERSION 5.00
-Object = "{0a8ef900-46e5-11e3-a545-0013d350667c}#2.6#0"; "tx4ole20.ocx"
+Object = "{67d06a00-8469-11e5-a5c5-0013d350667c}#2.9#0"; "tx4ole23.ocx"
 Begin VB.Form Form2 
    BorderStyle     =   3  'Fixed Dialog
    Caption         =   "Spelling"
