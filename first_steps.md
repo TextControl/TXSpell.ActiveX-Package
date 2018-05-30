@@ -1,4 +1,4 @@
-The following steps are required to create a Visual Basic 6 application with TX Spell .NET 6.0 and TX Text Control ActiveX 22.0:
+The following steps are required to create a Visual Basic 6 application with TX Spell .NET 7.0 and TX Text Control ActiveX 25.0:
 
 1. Download the source code.
 
