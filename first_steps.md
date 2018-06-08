@@ -5,7 +5,7 @@ The following steps are required to create a Visual Basic 6 application with TX 
 2. Download and install the [TX Spell .NET for Windows Forms trial version](http://www.textcontrol.com/en_US/downloads/trials/index/default/spelldotnet/).
 
 3. Compile the ActiveX Package project.
-   1. Open the project (AxTXSpell.vbproj) in Visual Studio 2010 and compile it using the *Rebuild Solution* menu entry of the *Build* main menu.
+   1. Open the project (AxTXSpell.vbproj) in Visual Studio 2017 and compile it using the *Rebuild Solution* menu entry of the *Build* main menu.
    2. Close Visual Studio again.
 
 4. Open the VB6 example
