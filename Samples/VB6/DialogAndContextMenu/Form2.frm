@@ -1,5 +1,5 @@
 VERSION 5.00
-Object = "{b89a2c00-99dd-11e6-a5ed-0013d350667c}#3.0#0"; "tx4ole24.ocx"
+Object = "{0EDB0C00-C493-11E7-A629-0013D350667C}#3.1#0"; "tx4ole25.ocx"
 Begin VB.Form Form2 
    BorderStyle     =   3  'Fixed Dialog
    Caption         =   "Spelling"
@@ -77,7 +77,7 @@ Begin VB.Form Form2
       TabIndex        =   1
       Top             =   360
       Width           =   5295
-      _Version        =   131075
+      _Version        =   196609
       _ExtentX        =   9340
       _ExtentY        =   2355
       _StockProps     =   73
@@ -138,6 +138,16 @@ Begin VB.Form Form2
       AllowDrag       =   0   'False
       AllowDrop       =   0   'False
       SelectionViewMode=   1
+      SectionRestartPageNumbering=   0
+      PermanentControlChars=   16
+      RightToLeft     =   0   'False
+      TextDirection   =   2
+      Locale          =   1033
+      Justification   =   1
+      FrameColor      =   16777215
+      FrameLineColor  =   0
+      DocumentPermissions=   31
+      SelectObjects   =   -1  'True
    End
    Begin VB.Label Label2 
       AutoSize        =   -1  'True

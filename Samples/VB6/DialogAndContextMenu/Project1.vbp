@@ -1,12 +1,11 @@
 Type=Exe
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
-Reference=*\G{224ADB8B-1FE1-4DD9-BD4A-EE6B603DFD34}#4.12c#0#..\..\..\..\txspell\AxTXSpell\bin\Debug\AxTXSpell.tlb#TX Spell .NET ActiveX Package
-Object={b89a2c00-99dd-11e6-a5ed-0013d350667c}#3.0#0; tx4ole24.ocx
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\Windows\SysWOW64\stdole2.tlb#OLE Automation
+Reference=*\G{224ADB8B-1FE1-4DD9-BD4A-EE6B603DFD34}#4.12c#0#..\..\..\..\..\AxTXSpell\AxTXSpell.tlb#TX Spell .NET ActiveX Package
+Object={0EDB0C00-C493-11E7-A629-0013D350667C}#3.1#0; tx4ole25.ocx
 Form=Form1.frm
 Form=Form2.frm
 Startup="Form1"
 ExeName32="Project1.exe"
-Path32=""
 Command32=""
 Name="Project1"
 HelpContextID="0"

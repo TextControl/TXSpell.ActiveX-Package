@@ -1,5 +1,5 @@
 VERSION 5.00
-Object = "{b89a2c00-99dd-11e6-a5ed-0013d350667c}#3.0#0"; "tx4ole24.ocx"
+Object = "{0EDB0C00-C493-11E7-A629-0013D350667C}#3.1#0"; "tx4ole25.ocx"
 Begin VB.Form Form1 
    Caption         =   "TX Spell .NET ActiveX Package Sample"
    ClientHeight    =   8640
@@ -25,7 +25,7 @@ Begin VB.Form Form1
       TabIndex        =   0
       Top             =   0
       Width           =   10335
-      _Version        =   131075
+      _Version        =   196609
       _ExtentX        =   18230
       _ExtentY        =   13996
       _StockProps     =   73
@@ -87,6 +87,16 @@ Begin VB.Form Form1
       AllowDrop       =   0   'False
       EnableSpellChecking=   -1  'True
       SelectionViewMode=   1
+      SectionRestartPageNumbering=   0
+      PermanentControlChars=   16
+      RightToLeft     =   0   'False
+      TextDirection   =   2
+      Locale          =   1033
+      Justification   =   1
+      FrameColor      =   16777215
+      FrameLineColor  =   0
+      DocumentPermissions=   31
+      SelectObjects   =   -1  'True
    End
    Begin VB.Menu mnu_Spell 
       Caption         =   "Spell"
