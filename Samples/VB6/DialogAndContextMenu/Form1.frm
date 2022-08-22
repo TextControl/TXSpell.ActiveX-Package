@@ -1,5 +1,5 @@
 VERSION 5.00
-Object = "{0EDB0C00-C493-11E7-A629-0013D350667C}#3.1#0"; "tx4ole25.ocx"
+Object = "{538cec00-ac0c-11eb-ba91-7085c299db80}#3.6#0"; "tx4ole30.ocx"
 Begin VB.Form Form1 
    Caption         =   "TX Spell .NET ActiveX Package Sample"
    ClientHeight    =   8640
