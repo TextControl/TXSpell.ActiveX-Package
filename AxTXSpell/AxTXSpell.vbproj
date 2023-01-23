@@ -52,13 +52,13 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="TXSpell, Version=9.0.800.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+    <Reference Include="TXSpell, Version=10.0.900.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Program Files\Text Control GmbH\TX Spell 9.0 .NET for Windows Forms\Assembly\TXSpell.dll</HintPath>
+      <HintPath>..\..\Program Files\Text Control GmbH\TX Spell 10.0 .NET for Windows Forms\Assembly\TXSpell.dll</HintPath>
     </Reference>
-    <Reference Include="TXSpell.Windows.Forms, Version=9.0.800.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+    <Reference Include="TXSpell.Windows.Forms, Version=10.0.900.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Program Files\Text Control GmbH\TX Spell 9.0 .NET for Windows Forms\Assembly\TXSpell.Windows.Forms.dll</HintPath>
+      <HintPath>..\..\Program Files\Text Control GmbH\TX Spell 10.0 .NET for Windows Forms\Assembly\TXSpell.Windows.Forms.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
