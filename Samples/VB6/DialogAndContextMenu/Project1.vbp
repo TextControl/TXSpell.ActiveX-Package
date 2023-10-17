@@ -1,7 +1,7 @@
 Type=Exe
 Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\Windows\SysWOW64\stdole2.tlb#OLE Automation
 Reference=*\G{224ADB8B-1FE1-4DD9-BD4A-EE6B603DFD34}#4.12c#0#..\..\..\..\..\AxTXSpell\AxTXSpell.tlb#TX Spell .NET ActiveX Package
-Object={B8C8CD00-F600-11EC-BABF-7085C299DB80}#4.0#0; tx4ole31.ocx
+Object={29878f00-1cae-11ee-bae3-7085c299db80}#4.1#0; tx4ole32.ocx
 Form=Form1.frm
 Form=Form2.frm
 Startup="Form1"
