@@ -23,6 +23,7 @@ Public Class OpenOfficeDictionary
     Private bIsSelectedAsDefault As Boolean
     Private bIsSpellCheckingEnabled As Boolean
     Private sDictionaryPath As String = String.Empty
+    Private sLanguage As String = String.Empty
     Private dOriginalDictionary As TXTextControl.Proofing.OpenOfficeDictionary
 
     Public Sub New()
@@ -117,7 +118,15 @@ Public Class OpenOfficeDictionary
             OriginalDictionary.IsSpellCheckingEnabled = value
         End Set
     End Property
-
+    Public Property Language() As String
+        Get
+            Return sLanguage
+        End Get
+        Set(ByVal value As String)
+            sLanguage = value
+            OriginalDictionary.Language = New CultureInfo(sLanguage)
+        End Set
+    End Property
 End Class
 
 
