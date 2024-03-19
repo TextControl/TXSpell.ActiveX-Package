@@ -24,6 +24,7 @@ Public Class UserDictionary
     Private bIsSelectedAsDefault As Boolean
     Private bIsSpellCheckingEnabled As Boolean
     Private sDictionaryPath As String = String.Empty
+    Private sLanguage As String = String.Empty
     Private dOriginalDictionary As TXTextControl.Proofing.UserDictionary
 
     Public Sub New()
@@ -129,6 +130,16 @@ Public Class UserDictionary
             Dim dic As TXTextControl.Proofing.UserDictionary = OriginalDictionary
             dic.IsEditable = value
         End Set
+    End Property
+
+    Public Property Language() As String
+    Get
+        Return sLanguage
+    End Get
+    Set(ByVal value As String)
+        sLanguage = value
+        OriginalDictionary.Language = New CultureInfo(sLanguage)
+    End Set
     End Property
 
     Public Function AddWord(ByVal word As String) As Boolean
