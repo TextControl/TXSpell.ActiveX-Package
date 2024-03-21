@@ -1,4 +1,5 @@
 ﻿Imports System.Text
+Imports System.Globalization
 
 <ComClass(OpenOfficeDictionary.ClassId, OpenOfficeDictionary.InterfaceId, OpenOfficeDictionary.EventsId)> _
 Public Class OpenOfficeDictionary

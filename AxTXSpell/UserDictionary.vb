@@ -1,4 +1,5 @@
 ﻿Imports System.Text
+Imports System.Globalization
 
 <ComClass(UserDictionary.ClassId, UserDictionary.InterfaceId, UserDictionary.EventsId)> _
 Public Class UserDictionary
